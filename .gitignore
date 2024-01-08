@@ -162,3 +162,12 @@ WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
 WebPersonal/Core/migrations/__init__.py
 WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
 WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
+
+.env
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+__pycache__/
+*.py[cod]
+*$py.class
