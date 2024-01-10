@@ -3,10 +3,10 @@
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+WebPersonal\WebPersonal\__pycache__
+urls.cpython-312.pyc
 __pycache__/
 *.py[cod]
 *$py.class
 __init__.py
-urls.cpython-312.pyc
-WebPersonal\WebPersonal\__pycache__
 
