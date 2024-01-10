@@ -8,7 +8,5 @@ __pycache__/
 *.py[cod]
 *$py.class
 __init__.py
-WebPersonal\WebPersonal\__pycache__\urls.cpython-312.pyc
-WebPersonal\WebPersonal\__pycache__\settings.cpython-312.pyc
 WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
 WebPersonal/WebPersonal/__pycache__/settings.cpython-312.pyc
