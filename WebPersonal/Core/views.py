@@ -5,6 +5,8 @@ html_base = """
             <ul>
                 <li><a href="/">Portada</a></li>
                 <li><a href="/about/">Acerca de</a></li>
+                <li><a href="/contact/">Contacto</a></li>
+
             </ul>
             """
 
@@ -23,3 +25,16 @@ def about(request):
                         
                         '''
                         )
+
+
+#definiendo CONTACT
+html_contact = '''
+               <h2>Contacto</h2>
+               <p>Les dejo mi repositorio: </p>
+               <ul>
+                    <li><a href="https://github.com/Lucke01">Github</a></li>
+                </ul>
+                '''
+
+def contact(request):
+    return HttpResponse(html_base + html_contact)
