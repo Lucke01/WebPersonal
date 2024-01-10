@@ -6,7 +6,5 @@ db.sqlite3-journal
 __pycache__/
 *.py[cod]
 *$py.class
-WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
-WebPersonal/Core/migrations/__init__.py
-
-WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
+__init__.py
+urls.cpython-312.pyc
