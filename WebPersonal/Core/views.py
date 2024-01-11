@@ -2,8 +2,8 @@ from django.shortcuts import render, HttpResponse
 
 
 #definiendo PORTADA
-def portada(request):
-    return render(request, 'Core/portada.html')
+def home(request):
+    return render(request, 'Core/home.html')
 
 
 #definiendo ABOUT
