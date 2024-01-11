@@ -12,7 +12,9 @@ def about(request):
 
 
 #definiendo CONTACT
-
-
 def contact(request):
     return render(request , 'Core/contact.html')
+
+#definiendo PORTFOLIO
+def portfolio(request):
+    return render (request,'Core/portfolio.html')
