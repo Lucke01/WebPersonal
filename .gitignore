@@ -13,4 +13,7 @@ WebPersonal/WebPersonal/__pycache__/settings.cpython-312.pyc
 WebPersonal/db.sqlite3
 WebPersonal/Portfolio/migrations/0001_initial.py
 WebPersonal/Portfolio/tests.py
-
+WebPersonal/Portfolio/migrations
+WebPersonal/db.sqlite3
+WebPersonal/WebPersonal/__pycache__/settings.cpython-312.pyc
+WebPersonal/WebPersonal/__pycache__/urls.cpython-312.pyc
