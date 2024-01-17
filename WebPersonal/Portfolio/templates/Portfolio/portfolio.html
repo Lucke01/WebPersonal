@@ -1,0 +1,28 @@
+{% extends 'Core/BASE.html' %}
+
+{% block titulo %}
+    Portfolio
+{% endblock %}
+
+
+{% block cabecera %}
+    <h1>Portafolio</h1>
+    <span class="subheading">Currículo</span>
+{% endblock %}
+
+
+{% block contenido %}
+    {% for p in projects %}
+        <!-- Proyecto -->
+            <div>
+                <h2>{{p.titulo}}</h2>   
+                <p>{{p.descripcion}}</p>
+
+                {% if p.link %}
+                    <p><a href="{{p.link}}">Más información</a></p>
+                {% endif %}
+            
+            </div>
+    {% endfor %}
+{% endblock %}
+
